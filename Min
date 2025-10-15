@@ -87,7 +87,7 @@ TextButton.MouseButton1Click:Connect(function()
 	if KeyTextbox.Text == key then
 		TextButton.Text = "Correct Key!"
 		task.wait(3)
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/Hello5130/FAs/refs/heads/main/Ego?token=GHSAT0AAAAAADNBXULYMZWSQLD3IEJZLT6I2HOKG4A'))()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Hello5130/FAs/refs/heads/main/Ego?token=GHSAT0AAAAAADNBXULYBEANLWVDDCRDZ5H42HPWQTA'))()
 		ScreenGui:Destroy()
 	else
 		TextButton.Text = "Wrong Key!"
